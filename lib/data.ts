@@ -33,6 +33,7 @@ import { SiTableau } from "react-icons/si";
 import { SiPowerbi } from "react-icons/si";
 import { SiJupyter } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
+import { SiReact } from "react-icons/si";
 
 export const links = [
   {
