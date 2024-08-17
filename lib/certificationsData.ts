@@ -29,4 +29,11 @@ export const certificationsData: Certification[] = [
     description: "Completed the Cyber Security to Everyone course offered by the University of Maryland on Coursera.",
     pdfUrl: "pdf/Coursera Certificates-2.pdf",
   },
+  {
+  title: "International Patent GRANT Certificate South African",
+  institution: "Republic Of South Africa",
+  date: "June 2023",
+  description: "My Patent for International Patent GRANT Certificate South African was granted successfully",
+  pdfUrl: "pdf/South Africa.pdf",
+  },
 ];
