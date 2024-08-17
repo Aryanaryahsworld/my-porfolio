@@ -5,6 +5,7 @@ import { RiSchoolLine } from "react-icons/ri";
 import { LuGraduationCap } from "react-icons/lu";
 import MediVault from "@/public/brainxtumor.png";
 import Budgety from "@/public/Budgety.png";
+import Tours from "@/public/tours.png";
 import ChatAnalyzer from "@/public/diesesepred.jpg";
 
 import { SiCodeforces, SiGithub, SiLinkedin } from "react-icons/si";
@@ -103,7 +104,15 @@ export const educationData = [
 ] as const;
 
 export const projectsData = [
- 
+ {
+    title: "Tours Management",
+    description:
+      "Discover and book amazing tours with ToursManagement: your go-to platform for unforgettable travel experiences and seamless bookings.",
+      tags: ["Javascript", "React", "Html","css"],
+    imageUrl: Tours,
+    gitlink: "https://github.com/Aryanaryahsworld/TourManagement",
+    livelink: "https://aryan-tours.netlify.app",
+  },
    {
     title: "Budgety",
     description:
