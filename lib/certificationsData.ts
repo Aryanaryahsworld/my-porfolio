@@ -6,6 +6,7 @@ export type Certification = {
   date: string;
   description: string;
   pdfUrl: string;
+  
 };
 
 export const certificationsData: Certification[] = [

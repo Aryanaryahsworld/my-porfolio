@@ -6,7 +6,7 @@ import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
 import Socials from "@/components/socials";
-import Certification from "@/components/Certification";
+import Certification from "@/components/certification";
 
 export default function Home() {
   return (
