@@ -4,6 +4,7 @@ import { LiaSchoolSolid } from "react-icons/lia";
 import { RiSchoolLine } from "react-icons/ri";
 import { LuGraduationCap } from "react-icons/lu";
 import MediVault from "@/public/brainxtumor.png";
+import Budgety from "@/public/Budgety.png;
 import ChatAnalyzer from "@/public/diesesepred.jpg";
 
 import { SiCodeforces, SiGithub, SiLinkedin } from "react-icons/si";
@@ -103,7 +104,15 @@ export const educationData = [
 
 export const projectsData = [
  
-  
+   {
+    title: "Budgety",
+    description:
+      "Budgety web app is a utility single page web app that helps you calculate and visualise your budget.",
+      tags: ["Javascript", "Html", "Css"],
+    imageUrl: Budgety,
+    gitlink: "https://github.com/Aryanaryahsworld/Budgety",
+    livelink: "aryanbudgety.netlify.app",
+  },
   {
     title: "Brain x Tumor",
     description:
