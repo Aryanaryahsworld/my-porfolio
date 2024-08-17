@@ -4,7 +4,7 @@ import { LiaSchoolSolid } from "react-icons/lia";
 import { RiSchoolLine } from "react-icons/ri";
 import { LuGraduationCap } from "react-icons/lu";
 import MediVault from "@/public/brainxtumor.png";
-import Budgety from "@/public/Budgety.png;
+import Budgety from "@/public/Budgety.png";
 import ChatAnalyzer from "@/public/diesesepred.jpg";
 
 import { SiCodeforces, SiGithub, SiLinkedin } from "react-icons/si";
