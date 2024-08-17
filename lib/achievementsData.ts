@@ -50,7 +50,7 @@ export const achievementsData = [
     },
     {
       name: "AI based Duplicate Certificate Detection Computing Device",
-      url: "/path/to/achievement9.pdf", // replace with actual path
+      url: "/pdf/UK.pdf", // replace with actual path
       date: "March 2024",
       description: "Aryan A. Shaikh and et.al., “AI based Duplicate certificate Detection Computing Device”, 6349218, March 8, 2024.",
     },
