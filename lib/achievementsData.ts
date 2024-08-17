@@ -38,13 +38,13 @@ export const achievementsData = [
     // },
     {
       name: "Blockchain NFT Marketplace for Content Creators",
-      url: "/path/to/achievement7.pdf", // replace with actual path
+      url: "/pdf/blockchain.pdf", // replace with actual path
       date: "December 2023",
       description: "Aryan Shaikh and et. al., “Block Chain NFT Marketplace for Content Creators”, International Journal of Applied Engineering & Technology, vol. 5, no. 4, pp. 834- 840, December 2023.",
     },
     {
       name: "Tactile Internet for 5G",
-      url: "/path/to/achievement8.pdf", // replace with actual path
+      url: "/pdf/tactile5g.pdf", // replace with actual path
       date: "September 2023",
       description: "Aryan Shaikh and et. al., “Tactile Internet for 5G”, International Journal of Applied Engineering & Technology, vol. 5, no. 3, pp. 226- 239, September 2023.",
     },
