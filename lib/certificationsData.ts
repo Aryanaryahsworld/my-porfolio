@@ -13,7 +13,7 @@ export const certificationsData: Certification[] = [
     institution: "American Academy of Project Management, USA (FAAPM)",
     date: "Date of Certification",
     description: "This certification was awarded by the American Academy of Project Management, recognizing expertise in Data Science.",
-    pdfUrl: "pdf/Aryan-Resume.pdf",
+    pdfUrl: "pdf/UK.pdf",
   },
   {
     title: "Machine Learning",
