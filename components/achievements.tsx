@@ -15,7 +15,7 @@ export default function Achievements() {
     <section id="achievements" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My Achievements</SectionHeading>
       <div
-        className={`grid gap-6
+        className={`grid gap-4 sm:gap-6
           grid-cols-1
           sm:grid-cols-1
           md:grid-cols-2
@@ -27,10 +27,10 @@ export default function Achievements() {
         {achievementsData.map((item, index) => (
           <div
             key={index}
-            className={`relative p-6 rounded-lg shadow-lg transition-transform duration-300 ease-in-out
+            className={`relative p-3 sm:p-4 md:p-6 rounded-lg shadow-lg transition-transform duration-300 ease-in-out
               ${index % 2 === 0 ? "bg-gray-100 dark:bg-gray-900" : "bg-gray-200 dark:bg-gray-800"}
               transform ${inView ? "translate-x-0" : "translate-x-8"}
-              h-[400px] // Fixed height for cards
+              h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] // Responsive height for cards
               flex flex-col
               `}
             style={{
@@ -38,37 +38,37 @@ export default function Achievements() {
             }}
           >
             <div
-              className={`absolute -top-4 left-0 w-3 h-3 rounded-full ${index % 2 === 0 ? "bg-blue-500" : "bg-green-500"}`}
+              className={`absolute -top-2 sm:-top-3 md:-top-4 left-0 w-2 sm:w-3 h-2 sm:h-3 rounded-full ${index % 2 === 0 ? "bg-blue-500" : "bg-green-500"}`}
               style={{ transform: `translateX(${index % 2 === 0 ? 0 : 20}px)` }}
             />
-            <div className="flex-shrink-0 flex items-center mb-4">
+            <div className="flex-shrink-0 flex items-center mb-2 sm:mb-3 md:mb-4">
               <div
-                className={`flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center
+                className={`flex-shrink-0 w-6 sm:w-8 md:w-12 h-6 sm:h-8 md:h-12 rounded-full flex items-center justify-center
                   ${index % 2 === 0 ? "bg-blue-500" : "bg-green-500"} text-white`}
               >
-                <FaTrophy size={24} /> {/* Corrected to only use 'size' prop */}
+                <FaTrophy size={12} className="sm:size-16 md:size-24" />
               </div>
-              <div className="ml-4 flex-1">
+              <div className="ml-2 sm:ml-3 md:ml-4 flex-1">
                 <h3
-                  className="text-xl font-bold dark:text-white text-gray-900"
+                  className="text-base sm:text-lg md:text-xl font-bold dark:text-white text-gray-900"
                   style={{
-                    height: "90px", // Adjust height based on font size and line height
+                    height: "50px", // Adjust height for smaller devices
                     overflow: "hidden", // Hide overflow text
                     display: "-webkit-box",
                     WebkitBoxOrient: "vertical",
-                    WebkitLineClamp: 3, // Clamp the text to 3 lines (for about 20 words)
+                    WebkitLineClamp: 2, // Clamp the text to 2 lines on smaller devices
                     textOverflow: "ellipsis",
                   }}
                 >
                   {item.name}
                 </h3>
-                <p className="text-sm font-medium mt-1 dark:text-gray-300 text-gray-600 truncate">
+                <p className="text-xs sm:text-sm font-medium mt-1 dark:text-gray-300 text-gray-600 truncate">
                   {item.date}
                 </p>
               </div>
             </div>
             <div className="flex-1 overflow-hidden">
-              <p className="font-normal mt-2 dark:text-gray-300 text-gray-700 line-clamp-5">
+              <p className="text-xs sm:text-sm md:text-base font-normal mt-2 dark:text-gray-300 text-gray-700 line-clamp-3 sm:line-clamp-4 md:line-clamp-5">
                 {item.description}
               </p>
             </div>
@@ -76,9 +76,9 @@ export default function Achievements() {
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 inline-block text-sm font-semibold text-blue-500 dark:text-blue-400 hover:underline"
+              className="mt-4 inline-block text-xs sm:text-sm md:text-base font-semibold text-blue-500 dark:text-blue-400 hover:underline"
             >
-              View Details
+              View Certificate
             </a>
           </div>
         ))}
