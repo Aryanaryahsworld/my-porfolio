@@ -6,7 +6,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import Blog from "@/public/unityuprise.png";
 import MediEase from "@/public/Gamingwesbite.png";
 import MediVault from "@/public/brainxtumor.png";
-import ChatAnalyzer from "@/public/ChatAnalyzer.png";
+import ChatAnalyzer from "@/public/diesesepred.jpg";
 
 import { SiCodeforces, SiGithub, SiLinkedin } from "react-icons/si";
 import { SiCodechef } from "react-icons/si";
@@ -111,8 +111,8 @@ export const projectsData = [
   {
     title: "Disease-Prediction-Online",
     description:
-      "This app will help you to analyze your disease symptoms and give you correct prediction by using Machine Learning on web.",
-    tags: ["Python", "Matplotlib", "Seaborn", "streamlit"],
+      "This app will analyze your disease symptoms, prediction by using Machine Learning on web.",
+    tags: ["Python", "Matplotlib", "streamlit"],
     imageUrl: ChatAnalyzer,
     gitlink: "https://github.com/Aryanaryahsworld/Health",
     livelink: "",
