@@ -20,7 +20,6 @@ export default function Home() {
   <Education />
   <Certification />
   <Achievements />
-  <Socials />
   <Contact />
 </main>
 
