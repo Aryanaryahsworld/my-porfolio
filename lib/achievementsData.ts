@@ -2,7 +2,7 @@
 export const achievementsData = [
     {
       name: "Trade X- Educative Trading Platform For Novice Traders Using Deep Learning",
-      url: "/path/to/achievement1.pdf", // replace with actual path
+      url: "@/pdf/tradex.pdf", // replace with actual path
       date: "January 2024",
       description: "Aryan Shaikh and et.al., “Trade X- Educative Trading Platform For Novice Traders Using Deep Learning”, Migration Letters., vol. 21, no. S2, pp. 1575–1582, Jan. 2024.",
     },
