@@ -3,8 +3,6 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LiaSchoolSolid } from "react-icons/lia";
 import { RiSchoolLine } from "react-icons/ri";
 import { LuGraduationCap } from "react-icons/lu";
-import Blog from "@/public/unityuprise.png";
-import MediEase from "@/public/Gamingwesbite.png";
 import MediVault from "@/public/brainxtumor.png";
 import ChatAnalyzer from "@/public/diesesepred.jpg";
 
@@ -29,6 +27,12 @@ import { FaPython } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
+import { SiPandas } from "react-icons/si";
+import { SiNumpy } from "react-icons/si";
+import { SiTableau } from "react-icons/si";
+import { SiPowerbi } from "react-icons/si";
+import { SiJupyter } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
 
 export const links = [
   {
@@ -172,6 +176,38 @@ export const skillsData = [
     name: "Git",
     icon: React.createElement(FaGitAlt),
   },
+   {
+    name: "Pandas",
+    icon: React.createElement(SiPandas),
+  },
+  {
+    name: "NumPy",
+    icon: React.createElement(SiNumpy),
+  },
+  {
+    name: "Tableau",
+    icon: React.createElement(SiTableau),
+  },
+  {
+    name: "Power BI",
+    icon: React.createElement(SiPowerbi),
+  },
+  {
+    name: "MySQL",
+    icon: React.createElement(SiMysql),
+  },
+  {
+    name: "Jupyter",
+    icon: React.createElement(SiJupyter),
+  },
+  {
+    name: "R",
+    icon: React.createElement(SiReact),
+  },
+  {
+    name: "Scikit-learn",
+    icon: React.createElement(SiScikitlearn),
+  }
 ] as const;
 
 export const socialLinks = [
