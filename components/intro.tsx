@@ -68,7 +68,7 @@ export default function Intro() {
         <span className="">Hello, I&apos;m </span>
         <span className="font-bold dark:text-red-200 text-gray-800">
           <Typewriter
-            words={["ARYAN SHAIKH", "Data Analyst"]}
+            words={["ARYAN SHAIKH", "Financial Analyst"]}
             loop={false}
             cursor
             cursorStyle="|"
