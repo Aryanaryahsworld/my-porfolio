@@ -7,35 +7,35 @@ import MediVault from "@/public/brainxtumor.png";
 import Budgety from "@/public/Budgety.png";
 import Tours from "@/public/tours.png";
 import ChatAnalyzer from "@/public/diesesepred.jpg";
-
-import { SiCodeforces, SiGithub, SiLinkedin } from "react-icons/si";
-import { SiCodechef } from "react-icons/si";
-import { SiLeetcode } from "react-icons/si";
-import { SiGeeksforgeeks } from "react-icons/si";
+import { SiPython, SiR, SiMysql, SiMicrosoft, SiFlask, SiDjango, SiPostgresql, SiMongodb, SiOracle, SiNetsuite, SiGit, SiGithub, SiPandas, SiNumpy, SiApacheairflow, SiSnowflake, SiTableau, SiPowerbi, SiMicrosoftaccess, SiSharepoint, SiPycharm, SiJupyter, SiVisualstudiocode, SiJira, SiMatplotlib, SiScipy, SiSap } from 'react-icons/si';
+// import { SiCodeforces, SiGithub, SiLinkedin } from "react-icons/si";
+// import { SiCodechef } from "react-icons/si";
+// import { SiLeetcode } from "react-icons/si";
+// import { SiGeeksforgeeks } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
-import { SiTypescript } from "react-icons/si";
+// import { SiJavascript } from "react-icons/si";
+// import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
-import { SiFlask } from "react-icons/si";
-import { SiCplusplus } from "react-icons/si";
+// import { SiFlask } from "react-icons/si";
+// import { SiCplusplus } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
-import { SiMongodb } from "react-icons/si";
+// import { SiMysql } from "react-icons/si";
+// import { SiMongodb } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
-import { SiPandas } from "react-icons/si";
-import { SiNumpy } from "react-icons/si";
-import { SiTableau } from "react-icons/si";
-import { SiPowerbi } from "react-icons/si";
-import { SiJupyter } from "react-icons/si";
-import { SiScikitlearn } from "react-icons/si";
-import { SiReact } from "react-icons/si";
+// import { SiPandas } from "react-icons/si";
+// import { SiNumpy } from "react-icons/si";
+// import { SiTableau } from "react-icons/si";
+// import { SiPowerbi } from "react-icons/si";
+// import { SiJupyter } from "react-icons/si";
+// import { SiScikitlearn } from "react-icons/si";
+// import { SiReact } from "react-icons/si";
 
 export const links = [
   {
@@ -139,90 +139,94 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  // {
-  //   name: "HTML",
-  //   icon: React.createElement(FaHtml5),
-  // },
-  // {
-  //   name: "CSS",
-  //   icon: React.createElement(FaCss3),
-  // },
-  // {
-  //   name: "JavaScript",
-  //   icon: React.createElement(SiJavascript),
-  // },
-  // // {
-  //   name: "TypeScript",
-  //   icon: React.createElement(SiTypescript),
-  // },
-  // {
-  //   name: "React",
-  //   icon: React.createElement(FaReact),
-  // },
-  // {
-  //   name: "Next.js",
-  //   icon: React.createElement(TbBrandNextjs),
-  // },
-  // {
-  //   name: "Node.js",
-  //   icon: React.createElement(FaNodeJs),
-  // },
-  // {
-  //   name: "C++",
-  //   icon: React.createElement(SiCplusplus),
-  // },
-  // {
-  //   name: "Java",
-  //   icon: React.createElement(FaJava),
-  // },
   {
-    name: "Python",
-    icon: React.createElement(FaPython),
+    category: "Languages",
+    skills: [
+      { name: "Python", icon: React.createElement(SiPython) },
+      { name: "R", icon: React.createElement(SiR) },
+      { name: "SQL", icon: React.createElement(SiMysql) },
+      { name: "VBA", icon: React.createElement(SiMicrosoft) },
+    ],
   },
   {
-    name: "SQL",
-    icon: React.createElement(SiMysql),
+    category: "IDEs",
+    skills: [
+      { name: "Visual Studio Code", icon: React.createElement(SiVisualstudiocode) },
+      { name: "PyCharm", icon: React.createElement(SiPycharm) },
+      { name: "Jupyter Notebook", icon: React.createElement(SiJupyter) },
+    ],
   },
   {
-    name: "MongoDB",
-    icon: React.createElement(SiMongodb),
+    category: "Frameworks & Tools",
+    skills: [
+      { name: "Flask", icon: React.createElement(SiFlask) },
+      { name: "Django", icon: React.createElement(SiDjango) },
+      { name: "MS SQL", icon: React.createElement(SiMysql) },
+      { name: "MySQL", icon: React.createElement(SiMysql) },
+      { name: "PostgreSQL", icon: React.createElement(SiPostgresql) },
+      { name: "MongoDB", icon: React.createElement(SiMongodb) },
+      { name: "Oracle Fusion", icon: React.createElement(SiOracle) },
+      { name: "NetSuite", icon: React.createElement(SiNetsuite) },
+      { name: "Git", icon: React.createElement(SiGit) },
+      { name: "GitHub", icon: React.createElement(SiGithub) },
+    ],
   },
   {
-    name: "Git",
-    icon: React.createElement(FaGitAlt),
-  },
-   {
-    name: "Pandas",
-    icon: React.createElement(SiPandas),
-  },
-  {
-    name: "NumPy",
-    icon: React.createElement(SiNumpy),
-  },
-  {
-    name: "Tableau",
-    icon: React.createElement(SiTableau),
+    category: "Data Processing & Streaming",
+    skills: [
+      { name: "PySpark", icon: React.createElement(SiPython) },
+      { name: "Pandas", icon: React.createElement(SiPandas) },
+      { name: "NumPy", icon: React.createElement(SiNumpy) },
+      { name: "Airflow", icon: React.createElement(SiApacheairflow) },
+      { name: "Snowflake", icon: React.createElement(SiSnowflake) },
+      { name: "Matplotlib", icon: React.createElement(SiMatplotlib) },
+      { name: "SciPy", icon: React.createElement(SiScipy) },
+    ],
   },
   {
-    name: "Power BI",
-    icon: React.createElement(SiPowerbi),
+    category: "Reporting Tools",
+    skills: [
+      { name: "MS Access", icon: React.createElement(SiMicrosoftaccess) },
+      { name: "MS Word", icon: React.createElement(SiMicrosoft) },
+      { name: "MS SharePoint", icon: React.createElement(SiSharepoint) },
+      { name: "MS Project", icon: React.createElement(SiMicrosoft) },
+      { name: "MS PowerPoint", icon: React.createElement(SiMicrosoft) },
+    ],
   },
   {
-    name: "MySQL",
-    icon: React.createElement(SiMysql),
+    category: "Visualization Tool/Other Skills",
+    skills: [
+      { name: "Tableau", icon: React.createElement(SiTableau) },
+      { name: "Power BI", icon: React.createElement(SiPowerbi) },
+      { name: "Microsoft Excel", icon: React.createElement(SiMicrosoft) },
+      { name: "Jira", icon: React.createElement(SiJira) },
+    ],
   },
   {
-    name: "Jupyter",
-    icon: React.createElement(SiJupyter),
+    category: "Methodology",
+    skills: [
+      { name: "SDLC", icon: React.createElement(SiPython) }, // Placeholder icon
+      { name: "Agile", icon: React.createElement(SiPython) }, // Placeholder icon
+      { name: "Waterfall", icon: React.createElement(SiPython) }, // Placeholder icon
+    ],
   },
   {
-    name: "R",
-    icon: React.createElement(SiReact),
+    category: "Financial Skills",
+    skills: [
+      { name: "SAP", icon: React.createElement(SiSap) },
+      { name: "Statistical Modeling", icon: React.createElement(SiPython) }, // Placeholder icon
+      { name: "Financial Analytics", icon: React.createElement(SiPython) }, // Placeholder icon
+      { name: "Time Series Analysis & Forecasting", icon: React.createElement(SiPython) }, // Placeholder icon
+      { name: "Credit Risk Modeling", icon: React.createElement(SiPython) }, // Placeholder icon
+    ],
   },
   {
-    name: "Scikit-learn",
-    icon: React.createElement(SiScikitlearn),
-  }
+    category: "Operating System",
+    skills: [
+      { name: "Windows", icon: React.createElement(SiMicrosoft) },
+      { name: "Linux", icon: React.createElement(SiPython) }, // Placeholder icon
+    ],
+  },
 ] as const;
 
 export const socialLinks = [
