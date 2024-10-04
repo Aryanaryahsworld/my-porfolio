@@ -9,11 +9,18 @@ export type Certification = {
 
 export const certificationsData: Certification[] = [
   {
+    title: "Certified Chartered Financial Analyst",
+    institution: "Udemy",
+    date: "Sep 2024",
+    description: "This certification was awarded by Navkar Digital Institute through Udemy, for Chartered Financial Analyst (CFA) ",
+    pdfUrl: "pdf/datascience.pdf",
+  },
+  {
     title: "Certified Data Science Professional",
     institution: "American Academy of Project Management, USA (FAAPM)",
-    date: "Date of Certification",
+    date: "",
     description: "This certification was awarded by the American Academy of Project Management, recognizing expertise in Data Science.",
-    pdfUrl: "pdf/datascience.pdf",
+    pdfUrl: "pdf/CFA_Certificate.pdf",
   },
   {
     title: "Machine Learning",
