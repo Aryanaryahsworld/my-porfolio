@@ -178,9 +178,9 @@ export const skillsData = [
       { name: "Pandas", icon: React.createElement(SiPandas) },
       { name: "NumPy", icon: React.createElement(SiNumpy) },
       { name: "Airflow", icon: React.createElement(SiApacheairflow) },
-      { name: "Snowflake", icon: React.createElement(SiSnowflake) },
-      { name: "Matplotlib", icon: React.createElement(SiMatplotlib) },
-      { name: "SciPy", icon: React.createElement(SiScipy) },
+      // { name: "Snowflake", icon: React.createElement(SiSnowflake) },
+      // { name: "Matplotlib", icon: React.createElement(SiMatplotlib) },
+      // { name: "SciPy", icon: React.createElement(SiScipy) },
     ],
   },
   {
