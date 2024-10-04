@@ -15,7 +15,7 @@ import { SiGeeksforgeeks } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiMicrosoftexcel,SiMicrosoftword,SiMicrosoftpowerpoint } from "react-icons/si";
-
+import { FaLinux } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 // import { SiJavascript } from "react-icons/si";
@@ -146,7 +146,7 @@ export const skillsData = [
       { name: "Python", icon: React.createElement(SiPython) },
       { name: "R", icon: React.createElement(SiR) },
       { name: "SQL", icon: React.createElement(SiMysql) },
-      { name: "VBA", icon: React.createElement(SiMicrosoft) },
+      { name: "VBA", icon: null },
     ],
   },
   {
@@ -167,7 +167,7 @@ export const skillsData = [
       { name: "PostgreSQL", icon: React.createElement(SiPostgresql) },
       { name: "MongoDB", icon: React.createElement(SiMongodb) },
       { name: "Oracle Fusion", icon: React.createElement(SiOracle) },
-      // { name: "NetSuite", icon: React.createElement(SiNetsuite) },
+      { name: "NetSuite", icon: null },
       { name: "Git", icon: React.createElement(SiGit) },
       { name: "GitHub", icon: React.createElement(SiGithub) },
     ],
@@ -179,9 +179,9 @@ export const skillsData = [
       { name: "Pandas", icon: React.createElement(SiPandas) },
       { name: "NumPy", icon: React.createElement(SiNumpy) },
       { name: "Airflow", icon: React.createElement(SiApacheairflow) },
-      // { name: "Snowflake", icon: React.createElement(SiSnowflake) },
-      // { name: "Matplotlib", icon: React.createElement(SiMatplotlib) },
-      // { name: "SciPy", icon: React.createElement(SiScipy) },
+      { name: "Snowflake", icon: null },
+      { name: "Matplotlib", icon: null },
+      { name: "SciPy", icon: null },
     ],
   },
   {
@@ -189,8 +189,8 @@ export const skillsData = [
     skills: [
       { name: "MS Access", icon: React.createElement(SiMicrosoftaccess) },
       { name: "MS Word", icon: React.createElement(SiMicrosoftword) },
-      // { name: "MS SharePoint", icon: React.createElement(SiSharepoint) },
-      // { name: "MS Project", icon: React.createElement(SiMicrosoft) },
+      { name: "MS SharePoint", icon: null },
+      { name: "MS Project", icon: null) },
       { name: "MS PowerPoint", icon: React.createElement(SiMicrosoftpowerpoint) },
     ],
   },
@@ -206,26 +206,26 @@ export const skillsData = [
   {
     category: "Methodology",
     skills: [
-      { name: "SDLC", icon: React.createElement(SiPython) }, // Placeholder icon
-      { name: "Agile", icon: React.createElement(SiPython) }, // Placeholder icon
-      { name: "Waterfall", icon: React.createElement(SiPython) }, // Placeholder icon
+      { name: "SDLC", icon: null }, // Placeholder icon
+      { name: "Agile", icon: null }, // Placeholder icon
+      { name: "Waterfall", icon: null }, // Placeholder icon
     ],
   },
   {
     category: "Financial Skills",
     skills: [
       // { name: "SAP", icon: React.createElement(SiSap) },
-      { name: "Statistical Modeling", icon: React.createElement(SiPython) }, // Placeholder icon
-      { name: "Financial Analytics", icon: React.createElement(SiPython) }, // Placeholder icon
-      { name: "Time Series Analysis & Forecasting", icon: React.createElement(SiPython) }, // Placeholder icon
-      { name: "Credit Risk Modeling", icon: React.createElement(SiPython) }, // Placeholder icon
+      { name: "Statistical Modeling", icon: null }, // Placeholder icon
+      { name: "Financial Analytics", icon: null }, // Placeholder icon
+      { name: "Time Series Analysis & Forecasting", icon:null }, // Placeholder icon
+      { name: "Credit Risk Modeling", icon: null }, // Placeholder icon
     ],
   },
   {
     category: "Operating System",
     skills: [
       { name: "Windows", icon: React.createElement(SiMicrosoft) },
-      { name: "Linux", icon: React.createElement(SiPython) }, // Placeholder icon
+      { name: "Linux", icon: React.createElement(FaLinux) }, // Placeholder icon
     ],
   },
 ] as const;
