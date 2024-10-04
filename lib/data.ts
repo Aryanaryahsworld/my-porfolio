@@ -213,7 +213,7 @@ export const skillsData = [
   {
     category: "Financial Skills",
     skills: [
-      { name: "SAP", icon: React.createElement(SiSap) },
+      // { name: "SAP", icon: React.createElement(SiSap) },
       { name: "Statistical Modeling", icon: React.createElement(SiPython) }, // Placeholder icon
       { name: "Financial Analytics", icon: React.createElement(SiPython) }, // Placeholder icon
       { name: "Time Series Analysis & Forecasting", icon: React.createElement(SiPython) }, // Placeholder icon
