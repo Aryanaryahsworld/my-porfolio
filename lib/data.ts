@@ -8,7 +8,7 @@ import Budgety from "@/public/Budgety.png";
 import Tours from "@/public/tours.png";
 import ChatAnalyzer from "@/public/diesesepred.jpg";
 import { SiPython, SiR, SiMysql, SiMicrosoft, SiFlask, SiDjango, SiPostgresql, SiMongodb, SiOracle,  SiGit, SiGithub, SiPandas, SiNumpy, SiApacheairflow, SiSnowflake, SiTableau, SiPowerbi, SiMicrosoftaccess,  SiPycharm, SiJupyter, SiVisualstudiocode, SiJira  } from 'react-icons/si';
-import { SiCodeforces, SiGithub, SiLinkedin } from "react-icons/si";
+import { SiCodeforces,  SiLinkedin } from "react-icons/si";
 import { SiCodechef } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
 import { SiGeeksforgeeks } from "react-icons/si";
