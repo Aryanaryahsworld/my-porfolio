@@ -22,7 +22,7 @@ export default function About() {
       <div className="mb-3">
   <Typewriter
     words={[
-      "With three years of hands-on experience in the tech industry, I've cultivated a deep expertise in tackling complex coding challenges and delivering innovative solutions. My journey with Ekeeda and LA Technologies has honed my skills in debugging intricate issues and driving projects to successful completion. I bring a fresh perspective and a hunger for learning new technologies to every job I undertake."
+      "As a Financial Analyst with 4 years of experience at MetLife USA, and Magna Infotech ,  I bring a broad set of skills in data analysis, financial modeling, and business insights. I am proficient in programming languages like Python, R, SQL, and VBA, and use tools such as Flask, Django, and Tableau to deliver comprehensive financial reports and insights. My expertise spans across financial analytics, budgeting, portfolio risk, corporate finance, and credit risk modeling, alongside data wrangling and time series forecasting. I have a strong foundation in using tools like MS SQL, Power BI, and SAP, with experience working in both Agile and Waterfall methodologies. My technical acumen is supported by operating systems including Windows and Linux."
     ]}
     loop={1}
     cursor
