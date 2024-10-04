@@ -31,13 +31,13 @@ export default function Skills() {
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>My Skills</SectionHeading>
-      
+
       {skillsData.map((category, categoryIndex) => (
         <div key={categoryIndex} className="mb-8">
           <h3 className="text-xl font-bold mb-4 text-gray-700 dark:text-white">
             {category.category}
           </h3>
-          
+
           <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
             {category.skills.map((skill, skillIndex) => (
               <motion.li
@@ -54,7 +54,7 @@ export default function Skills() {
                 custom={skillIndex}
               >
                 {skill.name}
-                {hoveredSkill === skill.name && (
+                {hoveredSkill === skill.name && skill.icon && (
                   <div className="absolute top-0 left-0 w-full h-full bg-black text-white dark:bg-white flex items-center justify-center dark:text-gray-900 scale-150">
                     {skill.icon}
                   </div>
