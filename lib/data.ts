@@ -7,7 +7,7 @@ import MediVault from "@/public/brainxtumor.png";
 import Budgety from "@/public/Budgety.png";
 import Tours from "@/public/tours.png";
 import ChatAnalyzer from "@/public/diesesepred.jpg";
-import { SiPython, SiR, SiMysql, SiMicrosoft, SiFlask, SiDjango, SiPostgresql, SiMongodb, SiOracle, SiNetsuite, SiGit, SiGithub, SiPandas, SiNumpy, SiApacheairflow, SiSnowflake, SiTableau, SiPowerbi, SiMicrosoftaccess, SiSharepoint, SiPycharm, SiJupyter, SiVisualstudiocode, SiJira, SiMatplotlib, SiScipy, SiSap } from 'react-icons/si';
+import { SiPython, SiR, SiMysql, SiMicrosoft, SiFlask, SiDjango, SiPostgresql, SiMongodb, SiOracle,  SiGit, SiGithub, SiPandas, SiNumpy, SiApacheairflow, SiSnowflake, SiTableau, SiPowerbi, SiMicrosoftaccess, SiSharepoint, SiPycharm, SiJupyter, SiVisualstudiocode, SiJira, SiMatplotlib, SiScipy, SiSap } from 'react-icons/si';
 // import { SiCodeforces, SiGithub, SiLinkedin } from "react-icons/si";
 // import { SiCodechef } from "react-icons/si";
 // import { SiLeetcode } from "react-icons/si";
@@ -166,7 +166,7 @@ export const skillsData = [
       { name: "PostgreSQL", icon: React.createElement(SiPostgresql) },
       { name: "MongoDB", icon: React.createElement(SiMongodb) },
       { name: "Oracle Fusion", icon: React.createElement(SiOracle) },
-      { name: "NetSuite", icon: React.createElement(SiNetsuite) },
+      // { name: "NetSuite", icon: React.createElement(SiNetsuite) },
       { name: "Git", icon: React.createElement(SiGit) },
       { name: "GitHub", icon: React.createElement(SiGithub) },
     ],
