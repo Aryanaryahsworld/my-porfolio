@@ -139,34 +139,34 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  {
-    name: "HTML",
-    icon: React.createElement(FaHtml5),
-  },
-  {
-    name: "CSS",
-    icon: React.createElement(FaCss3),
-  },
-  {
-    name: "JavaScript",
-    icon: React.createElement(SiJavascript),
-  },
   // {
+  //   name: "HTML",
+  //   icon: React.createElement(FaHtml5),
+  // },
+  // {
+  //   name: "CSS",
+  //   icon: React.createElement(FaCss3),
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: React.createElement(SiJavascript),
+  // },
+  // // {
   //   name: "TypeScript",
   //   icon: React.createElement(SiTypescript),
   // },
-  {
-    name: "React",
-    icon: React.createElement(FaReact),
-  },
-  {
-    name: "Next.js",
-    icon: React.createElement(TbBrandNextjs),
-  },
-  {
-    name: "Node.js",
-    icon: React.createElement(FaNodeJs),
-  },
+  // {
+  //   name: "React",
+  //   icon: React.createElement(FaReact),
+  // },
+  // {
+  //   name: "Next.js",
+  //   icon: React.createElement(TbBrandNextjs),
+  // },
+  // {
+  //   name: "Node.js",
+  //   icon: React.createElement(FaNodeJs),
+  // },
   // {
   //   name: "C++",
   //   icon: React.createElement(SiCplusplus),
