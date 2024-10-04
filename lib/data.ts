@@ -190,7 +190,7 @@ export const skillsData = [
       { name: "MS Access", icon: React.createElement(SiMicrosoftaccess) },
       { name: "MS Word", icon: React.createElement(SiMicrosoftword) },
       { name: "MS SharePoint", icon: null },
-      { name: "MS Project", icon: null) },
+      { name: "MS Project", icon: null },
       { name: "MS PowerPoint", icon: React.createElement(SiMicrosoftpowerpoint) },
     ],
   },
