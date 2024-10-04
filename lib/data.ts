@@ -14,6 +14,7 @@ import { SiLeetcode } from "react-icons/si";
 import { SiGeeksforgeeks } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { SiMicrosoftexcel,SiMicrosoftword,SiMicrosoftpowerpoint } from "react-icons/si";
 
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
@@ -187,10 +188,10 @@ export const skillsData = [
     category: "Reporting Tools",
     skills: [
       { name: "MS Access", icon: React.createElement(SiMicrosoftaccess) },
-      { name: "MS Word", icon: React.createElement(SiMicrosoft) },
+      { name: "MS Word", icon: React.createElement(SiMicrosoftword) },
       // { name: "MS SharePoint", icon: React.createElement(SiSharepoint) },
-      { name: "MS Project", icon: React.createElement(SiMicrosoft) },
-      { name: "MS PowerPoint", icon: React.createElement(SiMicrosoft) },
+      // { name: "MS Project", icon: React.createElement(SiMicrosoft) },
+      { name: "MS PowerPoint", icon: React.createElement(SiMicrosoftpowerpoint) },
     ],
   },
   {
@@ -198,7 +199,7 @@ export const skillsData = [
     skills: [
       { name: "Tableau", icon: React.createElement(SiTableau) },
       { name: "Power BI", icon: React.createElement(SiPowerbi) },
-      { name: "Microsoft Excel", icon: React.createElement(SiMicrosoft) },
+      { name: "Microsoft Excel", icon: React.createElement(SiMicrosoftexcel) },
       { name: "Jira", icon: React.createElement(SiJira) },
     ],
   },
